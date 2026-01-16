@@ -1,12 +1,9 @@
 # Gestion-de-videojuegos
 
-Practica realizada por el grupo 3 conformado por Alejandro Rodrigo, David Gallegos, Francisco Javier López y Mateus Leandro.
+Práctica realizada por el grupo 3 conformado por Alejandro Rodrigo, David Gallegos, Francisco Javier López y Mateus Leandro.
 
-#Roles
-Integrador: Alejandro Rodrigo
-Encargado de hacer las etapas 1 y 2: Francisco Javier López
-Encargado de hacer las etapas 3 y 4: Mateus Leandro
-Encargado de hacer las etapas 5 y 6: David Gallegos
+# Realización del programa
 
-#Ejecución del programa
--Pendiente de implementar
+Almacenar en fichero de CSV
+◦ Pedirá al usuario un nombre de fichero y guardará el catalogo de videojuegos
+en un fichero de tetxo en formato CSV.

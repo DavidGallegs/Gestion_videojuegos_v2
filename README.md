@@ -5,5 +5,6 @@ Práctica realizada por el grupo 3 conformado por Alejandro Rodrigo, David Galle
 # Realización del programa
 
 Almacenar en fichero de CSV
-◦ Pedirá al usuario un nombre de fichero y guardará el catalogo de videojuegos
+
+- Pedir al usuario un nombre de fichero para guardar dentro de el catálogo de videojuegos
 en un fichero de tetxo en formato CSV.

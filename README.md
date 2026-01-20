@@ -15,6 +15,17 @@ en un fichero de tetxo en formato CSV.
 En main.py, se debe de añadir en la parte superior del código, al principio del todo la siguiente línea "from src.gestor.exportar_csv import guardar_catalogo_csv". 
 Para luego en este añadir en el menú la opción de exportarlo y la llamada de la función en el propio main.py
 
+## Dev B: CSV (Francisco Javier)
+
+### Realización del programa
+
+Implementar la función de leer catálogo creando el archivo leer_catalogo_csv.py, que contiene
+la función leer_catalogo_csv()
+
+### Funcionamiento
+
+()
+
 ## Dev C: JSON (Mateus Leandro)
 
 ### Funcionalidades agregadas

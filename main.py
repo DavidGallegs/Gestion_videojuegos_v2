@@ -2,6 +2,8 @@ from src.gestor.catalogo import catalogo, crear_juego, actualizar_juego, elimina
 from src.gestor.busquedas import buscar_por_titulo, buscar_parcial, buscar_por_genero, buscar_por_rango
 from src.gestor.estadisticas import total_juegos, conteo_por_genero
 from src.gestor.json import exportar_json, leer_json
+from src.gestor.exportar_csv import guardar_catalogo_csv
+from src.gestor.leer_catalogo_csv import leer_catalogo_csv
 
 activo = True
 
@@ -34,6 +36,8 @@ def menu():
 7. Actualizar información de un Videojuego
 8. Eliminar Videojuego
 9. Mostrar estadísticas de la lista de Videojuegos
+10. Export CSV
+11. Leer CSV
 12. Exportar catálogo a JSON
 13. Leer catálogo desde JSON
 0. Salir 
@@ -98,6 +102,14 @@ def menu():
 
             case "9":
                 mostrar_estadisticas()
+
+            case "10":
+                guardar_catalogo_csv(catalogo)
+            
+            case "11":
+                catalogo_leido = leer_catalogo_csv()
+                if catalogo_leido:
+                    mostrar_catalogo(catalogo_leido)
             
             case "12":
                 directorio = input("Especifique el directorio de guardado: ")

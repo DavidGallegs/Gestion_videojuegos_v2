@@ -1,12 +1,14 @@
 # Gestion-de-videojuegos
 
-Practica realizada por el grupo 3 conformado por Alejandro Rodrigo, David Gallegos, Francisco Javier López y Mateus Leandro.
+Práctica realizada por el grupo 3 conformado por Alejandro Rodrigo, David Gallegos, Francisco Javier López y Mateus Leandro.
 
-#Roles
-Integrador: Alejandro Rodrigo
-Encargado de hacer las etapas 1 y 2: Francisco Javier López
-Encargado de hacer las etapas 3 y 4: Mateus Leandro
-Encargado de hacer las etapas 5 y 6: David Gallegos
+# Realización del programa
 
-#Ejecución del programa
--Pendiente de implementar
+Almacenar en fichero de CSV
+
+- Pedir al usuario un nombre de fichero para guardar dentro de el catálogo de videojuegos
+en un fichero de tetxo en formato CSV.
+
+# Implementación en main.py
+
+En main.py, se debe de añadir en la parte superior del código, al principio del todo la siguiente línea "from src.gestor.exportar_csv import guardar_catalogo_csv". Para luego en este añadir en el menú la opción de exportarlo y la llamada de la función en el propio main.py

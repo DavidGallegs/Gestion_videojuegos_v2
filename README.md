@@ -1,12 +1,15 @@
-# Gestion-de-videojuegos
+# Gestion-de-videojuegos (Mateus Leandro)
 
-Practica realizada por el grupo 3 conformado por Alejandro Rodrigo, David Gallegos, Francisco Javier López y Mateus Leandro.
+### Funcionalidades agregadas
+- Exportación del catálogo de videojuegos a archivo JSON
+- Lectura y presentación de un catálogo almacenado en un archivo JSON
 
-#Roles
-Integrador: Alejandro Rodrigo
-Encargado de hacer las etapas 1 y 2: Francisco Javier López
-Encargado de hacer las etapas 3 y 4: Mateus Leandro
-Encargado de hacer las etapas 5 y 6: David Gallegos
+### Probar
+- Ejecutar python3 main.py
+- Seleccionar en el menú las nuevas funcionalidades: 12 y 13
+- Probar su funcionamiento
 
-#Ejecución del programa
--Pendiente de implementar
+### Archivos modificados
+- gestor/json.py: Nuevo módulo con las funciones de escritura y lectura JSON para catálogos
+- main.py: He importado el nuevo módulo y sus funciones, he modificado la función mostrar_catalogo() para que acepte como argumento un catálogo (en vez de imprimir solo el catálogo global) y he modificado el menú con las nuevas opciones 12 y 13
+- Adicionalmente, he agregado un .gitignore para ignorar las carpetas __pycache__ y he eliminado el rastreo con git rm -r --cached

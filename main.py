@@ -1,9 +1,9 @@
 from src.gestor.catalogo import catalogo, crear_juego, actualizar_juego, eliminar_juego
 from src.gestor.busquedas import buscar_por_titulo, buscar_parcial, buscar_por_genero, buscar_por_rango
 from src.gestor.estadisticas import total_juegos, conteo_por_genero
-from src.gestor.json import exportar_json, leer_json
-from src.gestor.exportar_csv import guardar_catalogo_csv
-from src.gestor.leer_catalogo_csv import leer_catalogo_csv
+from src.gestor.func_ficheros.json import exportar_json, leer_json
+from src.gestor.func_ficheros.exportar_csv import guardar_catalogo_csv
+from src.gestor.func_ficheros.leer_catalogo_csv import leer_catalogo_csv
 
 activo = True
 

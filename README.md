@@ -56,8 +56,8 @@ Para luego en este añadir en el menú la opción de exportarlo y la llamada de 
 
 ### Realización del programa
 
-Implementar la función de leer catálogo creando el archivo leer_catalogo_csv.py, que contiene
-la función leer_catalogo_csv()
+Implementar la función de leer_catalogo_csv() creando el archivo leer_catalogo_csv.py.
+Esta función se encarga de leer el archivo catalogo.csv y mostrarlo por terminal.
 
 ## Dev C: JSON (Mateus Leandro)
 
